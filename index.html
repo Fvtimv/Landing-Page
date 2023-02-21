@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Kucra</title>
 </head>
 <body>
     <div class="container">
         <header>
             <nav>
-                <h1>Kucra</h1>
+                <h2 class="title">Kucra</h2>
                 <li class="nav-bar">
                     <ul><a href="#"> HOME </a></ul>
                     <ul><a href="#"> FEATURES </a></ul>
@@ -29,19 +29,21 @@
                     <ul><i class="fa-brands fa-instagram"></i></ul>
                 </li>
             </nav>
-            <section class="left">
-                <h1>We are StartUp Creative Kucra Agency</h1>
-                <p>Carefully created after analysing the needs of different 
-                industries and the design achieves a great balance between purpose
-                & presentation</p>
-                <form action="newsletter">
-                    <input class="newletterInput" type="email" placeholder="Enter your email" required>
-                    <button class="newsletterButton" type="submit">Subcribe</button>
-                </form>
+            <section>
+                <div class="left">
+                    <h1>We are StartUp<br> Creative Kucra <br>Agency</h1>
+                    <p class="intro">Carefully created after analysing the needs of<br> different 
+                    industries and the design achieves a<br>  great balance between purpose
+                    & presentation</p>
+                    <form action="newsletter">
+                        <input class="newsletterInput" type="email" placeholder="Enter your email" required>
+                        <button class="newsletterButton" type="submit">SUBSCRIBE</button>
+                    </form>
+                </div>
+                <aside class="illustration">
+                    <img class="svg" src="illustration.svg" alt="Computer Illustration with cat above">
+                </aside>
             </section>
-            <aside class="illustration">
-                <img src="illustration.svg" alt="Computer Illustration with cat above">
-            </aside>
         </header>
     </div>
 </body>

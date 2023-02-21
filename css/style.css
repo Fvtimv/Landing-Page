@@ -4,5 +4,118 @@
 /***************General***********/
 *{
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: auto 0;
+    width: 100%;
+    font-family: Poppins;
+}
+
+header{
+    height: 700px;
+    background: radial-gradient(rgb(139, 195, 245), #1294b8);
+}
+
+nav{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+ul{
+    display: inline-flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    
+}
+
+li{
+    list-style:none;
+}
+
+
+ul, a{
+    text-decoration: none;
+}
+
+.title, ul, a{
+    color: white;
+
+}
+
+a:hover{
+    color: rgb(243, 235, 235);
+}
+
+.title{
+    font-weight: 900;
+    font-size: 35px;
+}
+
+section{
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 150px;
+    gap: 200px;
+    margin-left: 130px
+}
+
+.left{
+
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.intro{
+    font-weight: 400;
+    font-size: 13px;
+    text-align: justify;
+    margin: 20px 0 ;
+}
+
+form{
+    position: relative;
+}
+
+
+.newsletterInput{
+    height: 40px;
+    width: 320px;
+    padding-left: 10px;
+    border-radius: 50px;
+    border: white;
+    /* outline:none; */
+}
+
+.newsletterButton{
+    font-size: 12px;
+    position: absolute;
+    top: 4px;
+    right: 6px;
+    border-radius: 50px;
+    height: 32px ;
+    width: 100px;
+    background-color: rgb(65, 124, 233);
+    color: white;
+    border: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.newsletterButton:hover{
+    background-color: rgb(164, 164, 243);
+}
+
+.svg{
+    width: 170%;
+
 }
