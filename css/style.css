@@ -15,7 +15,7 @@
 }
 
 header{
-    height: 700px;
+    /* height: 700px; */
     background: radial-gradient(rgb(139, 195, 245), #1294b8);
 }
 
@@ -44,7 +44,7 @@ ul, a{
     text-decoration: none;
 }
 
-.title, ul, a{
+.logo, ul, a{
     color: white;
 
 }
@@ -58,7 +58,7 @@ a:hover{
     font-size: 35px;
 }
 
-section{
+.firstSection{
     display: inline-flex;
     justify-content: center;
     margin-top: 150px;
@@ -66,9 +66,6 @@ section{
     margin-left: 130px
 }
 
-.left{
-
-}
 
 h1{
     font-size: 40px;
@@ -118,4 +115,38 @@ form{
 .svg{
     width: 170%;
 
+}
+
+.secondSection{
+    margin-top: 40px;
+}
+
+.titleSection{
+    display: block;
+    text-align: center;
+}
+
+h3{
+    font-weight: 900;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.secondSection p{
+    font-size: 15px;
+    color: grey;
+}
+
+.cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card1, .card2, .card3{
+    width: 350px;
+    height: 350px;
+    border: 2px solid #1294b8;
+    background-color: radial-gradient(rgb(139, 195, 245), #1294b8);
+    border-radius: 10px;
 }
