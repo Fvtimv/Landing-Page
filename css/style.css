@@ -90,7 +90,7 @@ form{
     padding-left: 10px;
     border-radius: 50px;
     border: white;
-    /* outline:none; */
+    outline:none;
 }
 
 .newsletterButton{
@@ -132,7 +132,7 @@ h3{
     margin-bottom: 10px;
 }
 
-.secondSection p{
+p :first-child{
     font-size: 15px;
     color: grey;
 }
@@ -141,12 +141,42 @@ h3{
     margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
+    transform: scale(1);
+    transition: 0.5s ease-in-out;
 }
 
 .card1, .card2, .card3{
     width: 350px;
     height: 350px;
     border: 2px solid #1294b8;
-    background-color: radial-gradient(rgb(139, 195, 245), #1294b8);
-    border-radius: 10px;
+    background: radial-gradient(rgb(139, 195, 245), #1294b8);
+    border-radius: 10px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.cards :hover{
+    transform: translateY(-10px);
+}
+
+.cardIcon{
+    font-size: 45px;
+    color: white;
+
+}
+
+.cardTitle{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.cardContent{
+    font-size: 13px;
+    text-align: center;
+    color: white;
 }
