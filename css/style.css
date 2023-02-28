@@ -707,35 +707,43 @@ space between two selectors without a combinator.**/
     display: flex;
     justify-content: space-evenly;
     align-items: flex-end;
+    padding: 80px 0;
+    margin-top: 100px;
+}
+
+.contactAdress p{
+    margin-bottom: 20px;
+}
+
+.contactAdress i{
+    padding-right: 10px;
 }
 
 
-.contactForm{
-    /* padding: 0; */
-}
-
-/* .contactForm input,
+.contactForm input,
 .contactForm textarea{
-    width: 100%;
-    border: none;
     padding: 15px;
     margin-bottom: 17px;
-} */
+}
+
+#subject{
+    width: 411px;
+}
+
+.contactForm textarea{
+    width: 411px;
+}
 
 .contactForm input[type="submit"]{
-    width: auto;
-    padding: 15px 30px;
+    width: 150px;
+    /* padding: 15px 30px; */
     border: solid 1px rgb(57, 106, 197);
     background-color: rgb(57, 106, 197);
     border-radius: 5px;
     color: white;
     font-size: 15px;
+    float: right;
 }
-
-
-
-
-
 
 
 
@@ -832,7 +840,7 @@ space between two selectors without a combinator.**/
 }
 
 
-nav{
+.navBar{
     flex-direction: column;
     align-items: flex-start;
     text-align: center;
@@ -913,6 +921,32 @@ header{
 
 .thirdSection{
     padding: 20px;
+}
+
+.dot {
+    display: none;
+  }
+
+.articleWorks{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.articleImage img{
+    width: 250px;
+    height: 250px;
+}
+
+.textCard {
+    text-align: center;
+    width: 250px;
+    padding: 30px 0;
+}
+
+.textCard h4{
+    font-size: 19px;
+    margin-bottom: 20px;
 }
 
 /******************Forth Section****************/
@@ -1019,6 +1053,59 @@ header{
 .col{
     width: 320px;
 }
+
+
+/****************Contact Us**************/
+
+.contactUs{
+    padding: 20px;
+
+}
+
+.contactInfo{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.contactAdress {
+    padding-top: 30px;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+/* .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+
+.contactForm input,
+.contactForm textarea{
+    padding: 15px;
+    margin-bottom: 17px;
+}
+
+#subject{
+    width: 300px;
+}
+
+.contactForm textarea{
+    width: 300px;
+}
+
+.contactForm input[type="submit"]{
+    width: 150px;
+}
+
+
+
 
 
 
@@ -1156,6 +1243,20 @@ h3{
 .cardContent{
     font-size: 15px;
 }
+
+/***************Third Section************/
+
+.dot {
+    display: none;
+  }
+
+
+
+.articleImage img{
+    width: 250px;
+    height: 250px;
+}
+
 
 
 /******************Forth Section****************/
@@ -1318,6 +1419,62 @@ space between two selectors without a combinator.**/
     height: 90px;
     font-size: 20px;
 }
+
+
+/****************Contact Us**************/
+
+
+
+.contactInfo{
+    flex-direction: column-reverse;
+    align-items: center;
+
+}
+
+.contactAdress {
+    padding-top: 30px;
+}
+
+.contactAdress p{
+    margin-bottom: 20px;
+}
+
+.contactAdress i{
+    padding-right: 10px;
+}
+
+
+.contactForm input,
+.contactForm textarea{
+    padding: 15px;
+    margin-bottom: 17px;
+}
+
+#subject{
+    width: 411px;
+}
+
+.contactForm textarea{
+    width: 411px;
+}
+
+.contactForm input[type="submit"]{
+    width: 150px;
+    /* padding: 15px 30px; */
+    border: solid 1px rgb(57, 106, 197);
+    background-color: rgb(57, 106, 197);
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    float: right;
+}
+
+
+
+
+
+
+
 
 
 /***********Footer*************/
