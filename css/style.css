@@ -120,7 +120,7 @@ h1{
     margin: 20px 0 ;
 }
 
-form{
+.newsletter{
     position: relative;
 }
 
@@ -694,6 +694,49 @@ space between two selectors without a combinator.**/
     transform: translateY(-30px);
     transition: all .5s ease-in-out;
 }
+
+
+/****************Contact Us**************/
+
+.contactUs{
+    display: block;
+
+}
+
+.contactInfo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+
+.contactForm{
+    /* padding: 0; */
+}
+
+/* .contactForm input,
+.contactForm textarea{
+    width: 100%;
+    border: none;
+    padding: 15px;
+    margin-bottom: 17px;
+} */
+
+.contactForm input[type="submit"]{
+    width: auto;
+    padding: 15px 30px;
+    border: solid 1px rgb(57, 106, 197);
+    background-color: rgb(57, 106, 197);
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+
+
+
+
+
+
 
 
 
@@ -1275,32 +1318,6 @@ space between two selectors without a combinator.**/
     height: 90px;
     font-size: 20px;
 }
-
-
-
-/****************Contact Us**************/
-
-.contactInfo{
-    display: flex;
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /***********Footer*************/
