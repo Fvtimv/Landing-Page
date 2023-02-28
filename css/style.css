@@ -818,7 +818,7 @@ space between two selectors without a combinator.**/
 
 
 
-/*************** Mobile samsung galaxy s8+*******/
+/*************** Mobile Samsung Galaxy S8+*******/
 @media only screen and (min-width: 360px) and (max-width:740px ){
     .container{
         width: 100%;
@@ -836,7 +836,6 @@ space between two selectors without a combinator.**/
 .navBarLinks{
     display: none;
     width: 100%;
-  
 }
 
 
@@ -872,6 +871,7 @@ header{
     text-align: center;
     margin-left: 0px;
     gap: 0;
+    margin-top: 30px;
 }
 
 
@@ -1145,7 +1145,7 @@ header{
 
 
 
-/*************** Ipad *******/
+/*************** Ipad Air *******/
 
 @media only screen and (min-width: 820px) and (max-width:1180px){
     .container{
@@ -1212,6 +1212,7 @@ nav li {
 .firstSection{
     gap: 100px;
     margin-left: 0px;
+    margin-top: 30px;
 }
 
 
